@@ -18,3 +18,7 @@
 num = list(map(int, input("숫자 3개를 입력하시오.(숫자간 띄어쓰기 사용): ").split()))
 if(num[0] < num[1] and num[1] > num[2]) :
     print(num[1])
+elif(num[0] < num[2] and num[2] > num[1]) :
+    print(num[2])
+elif(num[1] < num[0] and num[0] > num[2]) :
+    print(num[0])
